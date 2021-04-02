@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6153C3025E1EC02007DC5E3 /* DetailedActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6153C2F25E1EC02007DC5E3 /* DetailedActivity.swift */; };
+		C6153C3525E349DB007DC5E3 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6153C3425E349DB007DC5E3 /* PieChart.swift */; };
+		C6153C3A25E3F62D007DC5E3 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6153C3925E3F62D007DC5E3 /* LineChart.swift */; };
+		C625019025F2091E009858DA /* FirstTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C625018F25F2091E009858DA /* FirstTime.swift */; };
+		C625019B25F39BE8009858DA /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = C625019A25F39BE8009858DA /* Help.swift */; };
+		C62501A025F39BF9009858DA /* GeneralSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C625019F25F39BF9009858DA /* GeneralSetting.swift */; };
+		C62501A525F39C02009858DA /* WeeklySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62501A425F39C02009858DA /* WeeklySummary.swift */; };
+		C62E49B025E5512F00B0BF9C /* ActivityRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62E49AF25E5512F00B0BF9C /* ActivityRecorder.swift */; };
 		C68A19AA25DCF3D20031106F /* TimeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19A925DCF3D20031106F /* TimeTrackerApp.swift */; };
 		C68A19AC25DCF3D20031106F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19AB25DCF3D20031106F /* ContentView.swift */; };
 		C68A19AE25DCF3D30031106F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68A19AD25DCF3D30031106F /* Assets.xcassets */; };
@@ -15,6 +23,17 @@
 		C68A19B625DCF3D30031106F /* TimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C68A19B425DCF3D30031106F /* TimeTracker.xcdatamodeld */; };
 		C68A19C125DCF3D30031106F /* TimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19C025DCF3D30031106F /* TimeTrackerTests.swift */; };
 		C68A19CC25DCF3D30031106F /* TimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19CB25DCF3D30031106F /* TimeTrackerUITests.swift */; };
+		C68A19E725DCF4170031106F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19DD25DCF4170031106F /* Navigation.swift */; };
+		C68A19E825DCF4170031106F /* ActivityOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19DF25DCF4170031106F /* ActivityOverview.swift */; };
+		C68A19E925DCF4170031106F /* ActivityAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19E025DCF4170031106F /* ActivityAdder.swift */; };
+		C68A19EA25DCF4170031106F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19E225DCF4170031106F /* Settings.swift */; };
+		C68A19EB25DCF4170031106F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19E425DCF4170031106F /* Home.swift */; };
+		C68A19EC25DCF4170031106F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19E625DCF4170031106F /* Activity.swift */; };
+		C68A19F225DE050D0031106F /* TimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A19F125DE050D0031106F /* TimeConverter.swift */; };
+		C68A1A0525DE9A0A0031106F /* NoActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A1A0425DE9A0A0031106F /* NoActivity.swift */; };
+		C6983FC825EDD55500B0688C /* SheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6983FC725EDD55500B0688C /* SheetHelper.swift */; };
+		C6983FD025EE61A700B0688C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6983FCF25EE61A700B0688C /* Extensions.swift */; };
+		C6983FD525EF49B700B0688C /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6983FD425EF49B700B0688C /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6153C2F25E1EC02007DC5E3 /* DetailedActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedActivity.swift; sourceTree = "<group>"; };
+		C6153C3425E349DB007DC5E3 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		C6153C3925E3F62D007DC5E3 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		C625018F25F2091E009858DA /* FirstTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTime.swift; sourceTree = "<group>"; };
+		C625019A25F39BE8009858DA /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		C625019F25F39BF9009858DA /* GeneralSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSetting.swift; sourceTree = "<group>"; };
+		C62501A425F39C02009858DA /* WeeklySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummary.swift; sourceTree = "<group>"; };
+		C62E49AF25E5512F00B0BF9C /* ActivityRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRecorder.swift; sourceTree = "<group>"; };
 		C68A19A625DCF3D20031106F /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68A19A925DCF3D20031106F /* TimeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerApp.swift; sourceTree = "<group>"; };
 		C68A19AB25DCF3D20031106F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +76,17 @@
 		C68A19C725DCF3D30031106F /* TimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68A19CB25DCF3D30031106F /* TimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerUITests.swift; sourceTree = "<group>"; };
 		C68A19CD25DCF3D30031106F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68A19DD25DCF4170031106F /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		C68A19DF25DCF4170031106F /* ActivityOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityOverview.swift; sourceTree = "<group>"; };
+		C68A19E025DCF4170031106F /* ActivityAdder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityAdder.swift; sourceTree = "<group>"; };
+		C68A19E225DCF4170031106F /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C68A19E425DCF4170031106F /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C68A19E625DCF4170031106F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		C68A19F125DE050D0031106F /* TimeConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConverter.swift; sourceTree = "<group>"; };
+		C68A1A0425DE9A0A0031106F /* NoActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoActivity.swift; sourceTree = "<group>"; };
+		C6983FC725EDD55500B0688C /* SheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetHelper.swift; sourceTree = "<group>"; };
+		C6983FCF25EE61A700B0688C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C6983FD425EF49B700B0688C /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +137,9 @@
 		C68A19A825DCF3D20031106F /* TimeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C68A19F025DE04F50031106F /* Utilities */,
+				C68A19E525DCF4170031106F /* Models */,
+				C68A19DC25DCF4170031106F /* Views */,
 				C68A19A925DCF3D20031106F /* TimeTrackerApp.swift */,
 				C68A19AB25DCF3D20031106F /* ContentView.swift */,
 				C68A19AD25DCF3D30031106F /* Assets.xcassets */,
@@ -134,6 +175,70 @@
 				C68A19CD25DCF3D30031106F /* Info.plist */,
 			);
 			path = TimeTrackerUITests;
+			sourceTree = "<group>";
+		};
+		C68A19DC25DCF4170031106F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C68A1A0425DE9A0A0031106F /* NoActivity.swift */,
+				C68A19DD25DCF4170031106F /* Navigation.swift */,
+				C68A19DE25DCF4170031106F /* ActivityRelated */,
+				C68A19E125DCF4170031106F /* SettingRelated */,
+				C68A19E325DCF4170031106F /* HomeRelated */,
+				C625018F25F2091E009858DA /* FirstTime.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C68A19DE25DCF4170031106F /* ActivityRelated */ = {
+			isa = PBXGroup;
+			children = (
+				C68A19DF25DCF4170031106F /* ActivityOverview.swift */,
+				C68A19E025DCF4170031106F /* ActivityAdder.swift */,
+				C6153C2F25E1EC02007DC5E3 /* DetailedActivity.swift */,
+				C6983FC725EDD55500B0688C /* SheetHelper.swift */,
+			);
+			path = ActivityRelated;
+			sourceTree = "<group>";
+		};
+		C68A19E125DCF4170031106F /* SettingRelated */ = {
+			isa = PBXGroup;
+			children = (
+				C68A19E225DCF4170031106F /* Settings.swift */,
+				C625019A25F39BE8009858DA /* Help.swift */,
+				C625019F25F39BF9009858DA /* GeneralSetting.swift */,
+				C62501A425F39C02009858DA /* WeeklySummary.swift */,
+			);
+			path = SettingRelated;
+			sourceTree = "<group>";
+		};
+		C68A19E325DCF4170031106F /* HomeRelated */ = {
+			isa = PBXGroup;
+			children = (
+				C68A19E425DCF4170031106F /* Home.swift */,
+				C62E49AF25E5512F00B0BF9C /* ActivityRecorder.swift */,
+			);
+			path = HomeRelated;
+			sourceTree = "<group>";
+		};
+		C68A19E525DCF4170031106F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C68A19E625DCF4170031106F /* Activity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C68A19F025DE04F50031106F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C68A19F125DE050D0031106F /* TimeConverter.swift */,
+				C6153C3425E349DB007DC5E3 /* PieChart.swift */,
+				C6153C3925E3F62D007DC5E3 /* LineChart.swift */,
+				C6983FCF25EE61A700B0688C /* Extensions.swift */,
+				C6983FD425EF49B700B0688C /* Buttons.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +370,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6153C3A25E3F62D007DC5E3 /* LineChart.swift in Sources */,
+				C68A19EC25DCF4170031106F /* Activity.swift in Sources */,
 				C68A19B325DCF3D30031106F /* Persistence.swift in Sources */,
+				C68A19E925DCF4170031106F /* ActivityAdder.swift in Sources */,
+				C68A19EA25DCF4170031106F /* Settings.swift in Sources */,
 				C68A19AC25DCF3D20031106F /* ContentView.swift in Sources */,
+				C6153C3025E1EC02007DC5E3 /* DetailedActivity.swift in Sources */,
+				C6983FD025EE61A700B0688C /* Extensions.swift in Sources */,
+				C62501A525F39C02009858DA /* WeeklySummary.swift in Sources */,
+				C62501A025F39BF9009858DA /* GeneralSetting.swift in Sources */,
+				C68A19F225DE050D0031106F /* TimeConverter.swift in Sources */,
+				C68A19EB25DCF4170031106F /* Home.swift in Sources */,
+				C62E49B025E5512F00B0BF9C /* ActivityRecorder.swift in Sources */,
+				C6153C3525E349DB007DC5E3 /* PieChart.swift in Sources */,
+				C68A19E725DCF4170031106F /* Navigation.swift in Sources */,
+				C625019025F2091E009858DA /* FirstTime.swift in Sources */,
+				C625019B25F39BE8009858DA /* Help.swift in Sources */,
+				C68A19E825DCF4170031106F /* ActivityOverview.swift in Sources */,
+				C6983FD525EF49B700B0688C /* Buttons.swift in Sources */,
 				C68A19AA25DCF3D20031106F /* TimeTrackerApp.swift in Sources */,
 				C68A19B625DCF3D30031106F /* TimeTracker.xcdatamodeld in Sources */,
+				C6983FC825EDD55500B0688C /* SheetHelper.swift in Sources */,
+				C68A1A0525DE9A0A0031106F /* NoActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

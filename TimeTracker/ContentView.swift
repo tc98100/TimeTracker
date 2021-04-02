@@ -15,24 +15,38 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
+    
+    
+    
+    
+    @State private var notFirstTimeUsing = UserDefaults.standard.bool(forKey: "notFirstTimeUsing")
+    @State private var toMainView = false
 
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-            }
-            .onDelete(perform: deleteItems)
-        }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
-
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
+        if notFirstTimeUsing {
+            Navigation()
+        } else {
+            if toMainView {
+                Navigation()
+                    .animation(.spring())
+                    .transition(.move(edge: .trailing))
+            } else {
+                Button(action: {
+                    toMainView = true
+                    UserDefaults.standard.set(true, forKey: "notFirstTimeUsing")
+                    UserDefaults.standard.set(Date(), forKey: "lastUseTime")
+                    UserDefaults.standard.set(1, forKey: "usingDays")
+                }, label: {
+                    /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                })
             }
         }
     }
+    
+    
+    
+    
+    
 
     private func addItem() {
         withAnimation {
