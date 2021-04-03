@@ -10,10 +10,10 @@ TimeTracker is an app developed for the iOS platform. It aims to help people tra
 
 Home Page                  |  Activity Main Page       |  Setting Main Page
 :-------------------------:|:-------------------------:|:-------------------------:
-![](.pictures/home.png)  | ![](.pictures/activity.png) | ![](.pictures/setting.png)
+![](pictures/home.png)  | ![](pictures/activity.png) | ![](pictures/setting.png)
 
 ---
 
 Add Activity Page          |  Detailed Activity Page   |  Detailed Setting Page    |  Weekly Summary Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](.pictures/add_activity.png)  | ![](.pictures/detailed_activity.png) | ![](.pictures/general_setting.png) | ![](.pictures/summary.png) |
+![](pictures/add_activity.png)  | ![](pictures/detailed_activity.png) | ![](pictures/general_setting.png) | ![](pictures/summary.png) |
